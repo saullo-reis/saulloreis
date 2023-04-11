@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "name": "Valorant Quiz",
+      "image": "https://i.ibb.co/f0ZP2ZM/quiz.gif"
+    },
+    {
+      "name": "Site customize",
+      "image": "https://i.ibb.co/H7WrZZ5/Box-Gif-Site-Customize.gif"
+    },
+    {
+      "name": "TMDB Project",
+      "image": "https://i.ibb.co/zSL6sm7/tmdb-3.gif"
+    },
+    {
+      "name": "Pokedex",
+      "image": "https://i.ibb.co/2NPqh3t/poke-gif.gif"
+    },
+    {
+      "name": "Loja RPG",
+      "image": "https://i.ibb.co/zFpQVyW/lojarpggif1.gif"
+    },
+    {
+      "name": "GitHub Search",
+      "image": "https://i.ibb.co/ZG4zkGH/github-api.gif"
+    }
+  ]
+}
