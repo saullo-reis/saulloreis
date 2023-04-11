@@ -10,22 +10,23 @@ body
     display: flex
     flex-direction: column
     max-width: 1600px
+    justify-content: center
+    align-items: center
 
-.App
+#root
     display: flex
     justify-content: center
     flex-direction: column
-    max-width: 1600px
     align-items: center
 
 @keyframes slideUp
     0%
         opacity: 0
-        transform: translateY(40px)
+        transform: translateY(80px)
     25%
-        transform: translateY(-7px)
+        transform: translateY(-10px)
     75%
-        transform: translateY(1px)
+        transform: translateY(4px)
     100%
         opacity: 1
         transform: translateY(0)
@@ -33,11 +34,28 @@ body
 @keyframes slideDown
     0%
         opacity: 0
-        transform: translateY(-40px)
+        transform: translateY(-80px)
     25%
-        transform: translateY(7px)
+        transform: translateY(10px)
     75%
-        transform: translateY(-1px)
+        transform: translateY(-4px)
     100%
         opacity: 1
         transform: translateY(0)
+
+@keyframes slideRight
+    0%
+        opacity: 0
+        transform: translateX(160px)
+    25%
+        transform: translateX(-10px)
+    75%
+        transform: translateX(4)
+    100%
+        opacity: 1
+        transform: translateX(0)
+
+.slideRight
+    animation: slideRight 1.7s ease forwards
+.slideUp
+    animation: slideUp 1.7s ease forwards
