@@ -7,14 +7,20 @@ export const Portfolio = () => {
 
     const handleScroll = useCallback(() => {
       const element = document.querySelector(".portfolio-projects-item");
-      if (!element) return;
+      const projects = document.querySelector(".portfolio-projects");
+      const childrens = projects?.children
+      if (!element || !childrens) return;
       const position = element?.getBoundingClientRect().top;
       const screenPosition = window.innerHeight / 1.3;
 
       if (position < screenPosition) {
-        element.classList.add("slideUp");
+        for(let i = 0; i < childrens?.length; ++i){
+          childrens[i].classList.add('slideUp')
+        }
       } else {
-        element.classList.remove("slideUp");
+        for (let i = 0; i < childrens?.length; ++i) {
+          childrens[i].classList.remove("slideUp");
+        }
       }
     },[]); 
 
