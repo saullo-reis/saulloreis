@@ -10,9 +10,6 @@ export const Intro = () => {
           atráves de cursos, pessoas e alguns vídeos pela internet. Tenho
           facilidade em aprender e conseguir resolver problemas.
         </p>
-        <a  className='intro-curriculo' href="./assets/curriculo" download>
-          Currículo
-        </a>
       </section>
     );
 }
