@@ -1,8 +1,10 @@
 import './App.sass'
-import { About } from './about/about'
-import { Intro } from './intro/intro'
-import { Header } from './header/header'
-import { Portfolio } from './portfolio/portfolio'
+import { About } from './components/about/about'
+import { Intro } from './components/intro/intro'
+import { Header } from './components/header/header'
+import { Portfolio } from './components/portfolio/portfolio'
+import { Contact } from './components/contact/contact'
+
 function App() {
 
   return (
@@ -11,6 +13,7 @@ function App() {
       <Intro/>
       <About/>
       <Portfolio/>
+      <Contact/>
     </>
   )
 }
