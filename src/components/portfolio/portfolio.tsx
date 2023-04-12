@@ -39,15 +39,17 @@ export const Portfolio = () => {
                     className="portfolio-projects-item"
                     key={index}
                   >
-                    <div
-                      className="portfolio-projects-item-image"
-                      style={{
-                        backgroundImage: `url(${element.image})`
-                      }}
-                    ></div>
-                    <h2 className="portfolio-projects-item-text">
-                      {element.name}
-                    </h2>
+                    <a href={element.link} target="_blank">
+                      <div
+                        className="portfolio-projects-item-image"
+                        style={{
+                          backgroundImage: `url(${element.image})`,
+                        }}
+                      ></div>
+                      <h2 className="portfolio-projects-item-text">
+                        {element.name}
+                      </h2>
+                    </a>
                   </li>
                 );
             })}</ul>

@@ -49,18 +49,24 @@ export const Contact = () => {
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/saullo-reis-874852231/">
+              <a
+                href="https://www.linkedin.com/in/saullo-reis-874852231/"
+                target="_blank"
+              >
                 <AiFillLinkedin />
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/saullo-reis-874852231/">
+              <a
+                href="https://www.linkedin.com/in/saullo-reis-874852231/"
+                target="_blank"
+              >
                 <AiFillInstagram />
               </a>
             </li>
           </ul>
         </div>
-        <Email/>
+        <Email />
       </div>
     </section>
   );

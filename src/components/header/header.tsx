@@ -22,12 +22,18 @@ export const Header = () => {
           </a>
         </li>
         <li className="header-redes-item">
-          <a href="https://www.linkedin.com/in/saullo-reis-874852231/">
+          <a
+            href="https://www.linkedin.com/in/saullo-reis-874852231/"
+            target="_blank"
+          >
             <AiFillLinkedin />
           </a>
         </li>
         <li className="header-redes-item">
-          <a href="https://www.linkedin.com/in/saullo-reis-874852231/">
+          <a
+            href="https://www.linkedin.com/in/saullo-reis-874852231/"
+            target="_blank"
+          >
             <AiFillInstagram />
           </a>
         </li>
