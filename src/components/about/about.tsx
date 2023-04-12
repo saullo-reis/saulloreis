@@ -29,7 +29,7 @@ export const About = () => {
     <section className="about">
       <img
         className="about-img"
-        src="https://i.ibb.co/gw4fJc7/faaaas.png"
+        src="https://uploaddeimagens.com.br/images/004/426/937/full/faaaas.png?1681297757"
       ></img>
       <div className="about-infos">
         <h1 className="about-infos-title">Sobre mim</h1>
