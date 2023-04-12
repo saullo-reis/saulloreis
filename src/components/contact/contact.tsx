@@ -1,6 +1,7 @@
 import { useCallback, useEffect } from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
 import './style.sass'
+import { Email } from "./email/email";
 
 export const Contact = () => {
 
@@ -59,14 +60,7 @@ export const Contact = () => {
             </li>
           </ul>
         </div>
-        <div className="contact-infos-inputs">
-          <div>
-            <input placeholder="Nome"></input>
-            <input placeholder="Email"></input>
-            <input placeholder="Assunto"></input>
-          </div>
-          <textarea cols={43} rows={10} >Mensagem</textarea>
-        </div>
+        <Email/>
       </div>
     </section>
   );
