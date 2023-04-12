@@ -4,6 +4,7 @@ import { Intro } from './components/intro/intro'
 import { Header } from './components/header/header'
 import { Portfolio } from './components/portfolio/portfolio'
 import { Contact } from './components/contact/contact'
+import { Footer } from './components/footer/footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Portfolio/>
       <Contact/>
+      <Footer/>
     </>
   )
 }
