@@ -1,4 +1,6 @@
 import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import { Hamburguer } from "./menu-hamburguer";
+
 import './style.sass'
 export const Header = () => {
   return (
@@ -38,6 +40,7 @@ export const Header = () => {
           </a>
         </li>
       </ul>
+      <Hamburguer/>
     </section>
   );
 };
