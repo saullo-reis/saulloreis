@@ -32,7 +32,7 @@ export const Contact = () => {
    }, [handleScroll]);
 
   return (
-    <section className="contact">
+    <section className="contact" id="contact">
       <h1 className="contact-title">Contato</h1>
       <div className="contact-infos">
         <div className="contact-infos-texts">

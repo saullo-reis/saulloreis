@@ -30,7 +30,7 @@ export const Portfolio = () => {
     }, [handleScroll]);
 
     return(
-        <section className='portfolio'>
+        <section className='portfolio' id="portfolio">
             <h1 className='portfolio-title'>Portifólio</h1>
             <ul className='portfolio-projects'>{projects.map((element, index) => {
                 return (

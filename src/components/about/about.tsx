@@ -26,7 +26,7 @@ export const About = () => {
   }, [handleScroll]);
 
   return (
-    <section className="about">
+    <section className="about" id="sobre">
       <img
         className="about-img"
         src="https://uploaddeimagens.com.br/images/004/426/937/full/faaaas.png?1681297757"
