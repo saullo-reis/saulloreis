@@ -35,11 +35,7 @@ export const About = () => {
         <h1 className="about-infos-title">Sobre mim</h1>
         <p className="about-infos-red">Sobre</p>
         <p className="about-infos-text">
-          Sou uma pessoa curiosa e que busca sempre evoluir a cada dia, conheci
-          a programação em 2019 porém apenas em 2021 que eu realmente entrei
-          firme na área, fiz um curso de Front-end com mentoria com os gêmeos do
-          DevEmDobro e atualmente busco o conhecimento através de vídeos e
-          comunidades.
+          Olá me chamo Saullo Reis, sou um Desenvolvedor Front-end que busca diariamente evoluir, sou uma pessoa criativa que gosta de criar projetos do 0 sem consultar ou dar o famoso ctrl+c ctrl+v, tento me desafiar ao máximo, sair de minha zona de conforto e entrar em situações onde eu aprenda mais.
         </p>
         <p className="about-infos-red">Habilidades</p>
         <ul className="about-infos-skills">
