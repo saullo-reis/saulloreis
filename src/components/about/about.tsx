@@ -29,7 +29,7 @@ export const About = () => {
     <section className="about" id="sobre">
       <img
         className="about-img"
-        src="https://i.ibb.co/YQPvDjp/foto-minha.jpg"
+        src="https://i.ibb.co/W0WFcvp/foto-minha-2.jpg"
       ></img>
       <div className="about-infos">
         <h1 className="about-infos-title">Sobre mim</h1>
