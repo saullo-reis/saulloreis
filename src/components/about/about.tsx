@@ -35,7 +35,8 @@ export const About = () => {
         <h1 className="about-infos-title">Sobre mim</h1>
         <p className="about-infos-red">Sobre</p>
         <p className="about-infos-text">
-          Olá me chamo Saullo Reis, sou um Desenvolvedor Front-end que busca diariamente evoluir, sou uma pessoa criativa que gosta de criar projetos do 0 sem consultar ou dar o famoso ctrl+c ctrl+v, tento me desafiar ao máximo, sair de minha zona de conforto e entrar em situações onde eu aprenda mais.
+          Eu me chamo Saullo Reis, desde a infância sempre fui familiarizado com a computação. Em 2019 me apresentaram a programação e em poucos meses eu estava fazendo jogos e projetos simples, mas foi em 2021 que eu entrei firme e comecei a estudar a parte de FrontEnd com um curso chamado DevQuest.
+          Atualmente estou expandindo meu conhecimento e buscando virar FullStack.
         </p>
         <p className="about-infos-red">Habilidades</p>
         <ul className="about-infos-skills">
@@ -67,7 +68,7 @@ export const About = () => {
             <SiJest />
           </li>
         </ul>
-        <a className="about-infos-curriculo" href="../../../assets/curriculo.pdf" download>
+        <a className="about-infos-curriculo" href="../../../assets/SaulloReis_DevFrontEndJúnior.pdf" download>
           Baixar Currículo
         </a>
       </div>
