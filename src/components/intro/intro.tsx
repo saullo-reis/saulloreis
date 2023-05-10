@@ -6,9 +6,7 @@ export const Intro = () => {
         <h1 className="intro-name">Olá, eu sou Saullo Reis</h1>
         <h1 className="intro-work">Desenvolvedor Web Júnior</h1>
         <p className="intro-about">
-          Iniciando na programação busco evoluir e aprender todos os dias,
-          atráves de cursos, pessoas, alguns vídeos pela internet e documentação. Tenho
-          facilidade em aprender e conseguir resolver problemas.
+          Dedicado à área de programação, busco evoluir e aprimorar meus conhecimentos diariamente por meio de cursos, interações com profissionais, vídeos online e estudo de documentações. Possuo facilidade em aprender e solucionar problemas, sempre me esforçando para enfrentar novos desafios e alcançar a excelência em meus projetos.
         </p>
       </section>
     );

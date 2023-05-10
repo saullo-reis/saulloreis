@@ -38,9 +38,7 @@ export const Contact = () => {
         <div className="contact-infos-texts">
           <h1>Vamos trabalhar juntos</h1>
           <p>
-            Me chame na dm em alguma dessas redes sociais irei te responder em
-            menos de 24 horas e se for entre 8:00 até as 19:00 provavelmente
-            respondo de imediato.
+             Entre em contato comigo por meio das redes sociais e estarei disponível para responder em até 24 horas. Caso a mensagem seja enviada entre 8h e 19h, é provável que eu consiga responder prontamente. Vamos colaborar e criar soluções inovadoras juntos.
           </p>
           <ul>
             <li>
