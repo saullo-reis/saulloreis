@@ -1,7 +1,7 @@
 import { useCallback, useEffect } from 'react'
 import {projects} from './projects.json'
-import monitor from "../../../assets/monitor.png"
-import celular from "../../../assets/celular.png"
+import monitor from "./monitor.png"
+import celular from "./celular.png"
 import './style.sass'
 
 export const Portfolio = () => {
