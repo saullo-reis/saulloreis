@@ -68,7 +68,7 @@ export const About = () => {
             <SiJest />
           </li>
         </ul>
-        <a className="about-infos-curriculo" href="../../../assets/SaulloReis_DevFrontEndJúnior.pdf" download>
+        <a className="about-infos-curriculo" href="../../.././assets/SaulloReis_DevFrontEndJúnior.pdf" download>
           Baixar Currículo
         </a>
       </div>
