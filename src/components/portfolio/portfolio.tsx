@@ -39,16 +39,23 @@ export const Portfolio = () => {
                     className="portfolio-projects-item"
                     key={index}
                   >
+                    <p style={{color: 'gray', textAlign: 'center'}}>Clique na imagem para abrir o site</p>
                     <a href={element.link} target="_blank">
                       <div
-                        className="portfolio-projects-item-image"
+                        className="portfolio-projects-item-monitor"
                         style={{
-                          backgroundImage: `url(${element.image})`,
+                          backgroundImage: 'url(../../../assets/monitor.png)',
                         }}
-                      ></div>
-                      <h2 className="portfolio-projects-item-text">
-                        {element.name}
-                      </h2>
+                      >
+                        <img className="portfolio-projects-item-monitor-image" src={element.image}></img>
+                      </div>
+                      <div
+                        className="portfolio-projects-item-celular"
+                        style={{
+                          backgroundImage: 'url(../../../assets/celular.png)',
+                        }}
+                      ><img className="portfolio-projects-item-celular-image" src={element.mobileImage}></img>
+                      </div>
                     </a>
                   </li>
                 );
