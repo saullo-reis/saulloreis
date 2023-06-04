@@ -2,7 +2,7 @@ import "./style.sass";
 import { FaSass, FaGit, FaCss3, FaHtml5, FaReact } from "react-icons/fa";
 import { SiTypescript, SiJavascript, SiRedux, SiJest } from "react-icons/si";
 import { useCallback, useEffect} from "react";
-import { curriculo } from './curriculo.pdf'
+import curriculo from './curriculo.pdf'
 
 export const About = () => {
 
