@@ -44,7 +44,7 @@ export const Portfolio = () => {
                       <div
                         className="portfolio-projects-item-monitor"
                         style={{
-                          backgroundImage: 'url(../../.././assets/monitor.png)',
+                          backgroundImage: 'url(../.././assets/monitor.png)',
                         }}
                       >
                         <img className="portfolio-projects-item-monitor-image" src={element.image}></img>
@@ -52,7 +52,7 @@ export const Portfolio = () => {
                       <div
                         className="portfolio-projects-item-celular"
                         style={{
-                          backgroundImage: 'url(../../.././assets/celular.png)',
+                          backgroundImage: 'url(../.././assets/celular.png)',
                         }}
                       ><img className="portfolio-projects-item-celular-image" src={element.mobileImage}></img>
                       </div>
