@@ -2,10 +2,11 @@ import "./style.sass";
 import { FaSass, FaGit, FaCss3, FaHtml5, FaReact } from "react-icons/fa";
 import { SiTypescript, SiJavascript, SiRedux, SiJest } from "react-icons/si";
 import { useCallback, useEffect} from "react";
+import curriculo from '../../../assets/SaulloReis_DevFrontEndJúnior.pdf'
 
 export const About = () => {
 
-
+  console.log(curriculo)
   const handleScroll = useCallback(() => {
     const element = document?.querySelector(".about");
     if (!element) return;
@@ -68,7 +69,7 @@ export const About = () => {
             <SiJest />
           </li>
         </ul>
-        <a className="about-infos-curriculo" href="../.././assets/SaulloReis_DevFrontEndJúnior.pdf" download>
+        <a className="about-infos-curriculo" href={curriculo} download>
           Baixar Currículo
         </a>
       </div>

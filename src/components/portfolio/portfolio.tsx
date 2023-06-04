@@ -1,5 +1,7 @@
 import { useCallback, useEffect } from 'react'
 import {projects} from './projects.json'
+import monitor from "../../../assets/monitor.png"
+import celular from "../../../assets/celular.png"
 import './style.sass'
 
 export const Portfolio = () => {
@@ -44,7 +46,7 @@ export const Portfolio = () => {
                       <div
                         className="portfolio-projects-item-monitor"
                         style={{
-                          backgroundImage: 'url(../.././assets/monitor.png)',
+                          backgroundImage: `url(${monitor})`,
                         }}
                       >
                         <img className="portfolio-projects-item-monitor-image" src={element.image}></img>
@@ -52,7 +54,7 @@ export const Portfolio = () => {
                       <div
                         className="portfolio-projects-item-celular"
                         style={{
-                          backgroundImage: 'url(../.././assets/celular.png)',
+                          backgroundImage: `url(${celular})`,
                         }}
                       ><img className="portfolio-projects-item-celular-image" src={element.mobileImage}></img>
                       </div>
